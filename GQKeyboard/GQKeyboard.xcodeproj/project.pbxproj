@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19C021D5208097B3002146FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C021D4208097B3002146FA /* AppDelegate.m */; };
+		19C021D8208097B3002146FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C021D7208097B3002146FA /* ViewController.m */; };
+		19C021DB208097B3002146FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C021D9208097B3002146FA /* Main.storyboard */; };
+		19C021DD208097B3002146FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19C021DC208097B3002146FA /* Assets.xcassets */; };
+		19C021E0208097B3002146FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C021DE208097B3002146FA /* LaunchScreen.storyboard */; };
+		19C021E3208097B3002146FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C021E2208097B3002146FA /* main.m */; };
+		19C021ED208097B3002146FA /* GQKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C021EC208097B3002146FA /* GQKeyboardTests.m */; };
+		19C021F8208097B3002146FA /* GQKeyboardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C021F7208097B3002146FA /* GQKeyboardUITests.m */; };
+		19C0221F208097E1002146FA /* GQKBArrowLeft@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C02206208097E1002146FA /* GQKBArrowLeft@3x.png */; };
+		19C02220208097E1002146FA /* GQKBArrowRight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 19C02207208097E1002146FA /* GQKBArrowRight@3x.png */; };
+		19C02221208097E1002146FA /* GQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C02209208097E1002146FA /* GQKeyboardManager.m */; };
+		19C02222208097E1002146FA /* GQKeyboardManager+ToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C0220C208097E1002146FA /* GQKeyboardManager+ToolBar.m */; };
+		19C02223208097E1002146FA /* UIView+GQKBToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C0220E208097E1002146FA /* UIView+GQKBToolBar.m */; };
+		19C02224208097E1002146FA /* UIViewController+EndEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C02211208097E1002146FA /* UIViewController+EndEdit.m */; };
+		19C02225208097E1002146FA /* NSArray+GQSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C02214208097E1002146FA /* NSArray+GQSort.m */; };
+		19C02229208097E1002146FA /* UIView+Responder.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C0221C208097E1002146FA /* UIView+Responder.m */; };
+		19C0222D208098AF002146FA /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C0222B208098AF002146FA /* RootTableViewController.m */; };
+		19C0223420809A40002146FA /* IHBaseInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C0223020809A40002146FA /* IHBaseInformationViewController.m */; };
+		19C0223620809A40002146FA /* IHBaseInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19C0223220809A40002146FA /* IHBaseInformationViewController.xib */; };
+		19C0223F20809A86002146FA /* IHBaseInformationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C0223A20809A86002146FA /* IHBaseInformationModel.m */; };
+		19C0224020809A86002146FA /* IHBaseInformationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C0223D20809A86002146FA /* IHBaseInformationCell.m */; };
+		19C0224120809A86002146FA /* IHBaseInformationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 19C0223E20809A86002146FA /* IHBaseInformationCell.xib */; };
+		19C0224520809C30002146FA /* XLSupplementaryInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C0224420809C30002146FA /* XLSupplementaryInfoViewController.m */; };
+		19C0224820809C58002146FA /* UIView+GQMakeUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C0224620809C57002146FA /* UIView+GQMakeUI.m */; };
+		19C0224B20809C9B002146FA /* XLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C0224920809C9B002146FA /* XLTextView.m */; };
+		19C0224E20809D01002146FA /* UIView+LCFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C0224C20809D01002146FA /* UIView+LCFrameLayout.m */; };
+		19C022572080C649002146FA /* GQMiddleBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C022542080C649002146FA /* GQMiddleBar.m */; };
+		19C022582080C649002146FA /* GQScrollContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C022562080C649002146FA /* GQScrollContentView.m */; };
+		19C0225B2080C66C002146FA /* MiddleBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C0225A2080C66C002146FA /* MiddleBarViewController.m */; };
+		19C022652080C67F002146FA /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C0225E2080C67F002146FA /* AViewController.m */; };
+		19C022662080C67F002146FA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C022602080C67F002146FA /* BaseViewController.m */; };
+		19C022672080C67F002146FA /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C022622080C67F002146FA /* BViewController.m */; };
+		19C022682080C67F002146FA /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C022642080C67F002146FA /* CViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19C021E9208097B3002146FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19C021C8208097B3002146FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C021CF208097B3002146FA;
+			remoteInfo = GQKeyboard;
+		};
+		19C021F4208097B3002146FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19C021C8208097B3002146FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C021CF208097B3002146FA;
+			remoteInfo = GQKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19C021D0208097B3002146FA /* GQKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GQKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C021D3208097B3002146FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		19C021D4208097B3002146FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		19C021D6208097B3002146FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		19C021D7208097B3002146FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		19C021DA208097B3002146FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		19C021DC208097B3002146FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19C021DF208097B3002146FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		19C021E1208097B3002146FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C021E2208097B3002146FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19C021E8208097B3002146FA /* GQKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GQKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C021EC208097B3002146FA /* GQKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQKeyboardTests.m; sourceTree = "<group>"; };
+		19C021EE208097B3002146FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C021F3208097B3002146FA /* GQKeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GQKeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C021F7208097B3002146FA /* GQKeyboardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GQKeyboardUITests.m; sourceTree = "<group>"; };
+		19C021F9208097B3002146FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19C02206208097E1002146FA /* GQKBArrowLeft@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GQKBArrowLeft@3x.png"; sourceTree = "<group>"; };
+		19C02207208097E1002146FA /* GQKBArrowRight@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GQKBArrowRight@3x.png"; sourceTree = "<group>"; };
+		19C02208208097E1002146FA /* GQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQKeyboardManager.h; sourceTree = "<group>"; };
+		19C02209208097E1002146FA /* GQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQKeyboardManager.m; sourceTree = "<group>"; };
+		19C0220B208097E1002146FA /* GQKeyboardManager+ToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GQKeyboardManager+ToolBar.h"; sourceTree = "<group>"; };
+		19C0220C208097E1002146FA /* GQKeyboardManager+ToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GQKeyboardManager+ToolBar.m"; sourceTree = "<group>"; };
+		19C0220D208097E1002146FA /* UIView+GQKBToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GQKBToolBar.h"; sourceTree = "<group>"; };
+		19C0220E208097E1002146FA /* UIView+GQKBToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GQKBToolBar.m"; sourceTree = "<group>"; };
+		19C02210208097E1002146FA /* UIViewController+EndEdit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EndEdit.h"; sourceTree = "<group>"; };
+		19C02211208097E1002146FA /* UIViewController+EndEdit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EndEdit.m"; sourceTree = "<group>"; };
+		19C02213208097E1002146FA /* NSArray+GQSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+GQSort.h"; sourceTree = "<group>"; };
+		19C02214208097E1002146FA /* NSArray+GQSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GQSort.m"; sourceTree = "<group>"; };
+		19C0221B208097E1002146FA /* UIView+Responder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Responder.h"; sourceTree = "<group>"; };
+		19C0221C208097E1002146FA /* UIView+Responder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Responder.m"; sourceTree = "<group>"; };
+		19C0222B208098AF002146FA /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		19C0222C208098AF002146FA /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		19C0222F20809A40002146FA /* IHBaseInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHBaseInformationViewController.h; sourceTree = "<group>"; };
+		19C0223020809A40002146FA /* IHBaseInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHBaseInformationViewController.m; sourceTree = "<group>"; };
+		19C0223220809A40002146FA /* IHBaseInformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IHBaseInformationViewController.xib; sourceTree = "<group>"; };
+		19C0223920809A86002146FA /* IHBaseInformationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHBaseInformationModel.h; sourceTree = "<group>"; };
+		19C0223A20809A86002146FA /* IHBaseInformationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHBaseInformationModel.m; sourceTree = "<group>"; };
+		19C0223C20809A86002146FA /* IHBaseInformationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHBaseInformationCell.h; sourceTree = "<group>"; };
+		19C0223D20809A86002146FA /* IHBaseInformationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHBaseInformationCell.m; sourceTree = "<group>"; };
+		19C0223E20809A86002146FA /* IHBaseInformationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IHBaseInformationCell.xib; sourceTree = "<group>"; };
+		19C0224320809C30002146FA /* XLSupplementaryInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSupplementaryInfoViewController.h; sourceTree = "<group>"; };
+		19C0224420809C30002146FA /* XLSupplementaryInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSupplementaryInfoViewController.m; sourceTree = "<group>"; };
+		19C0224620809C57002146FA /* UIView+GQMakeUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GQMakeUI.m"; sourceTree = "<group>"; };
+		19C0224720809C58002146FA /* UIView+GQMakeUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GQMakeUI.h"; sourceTree = "<group>"; };
+		19C0224920809C9B002146FA /* XLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTextView.m; sourceTree = "<group>"; };
+		19C0224A20809C9B002146FA /* XLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTextView.h; sourceTree = "<group>"; };
+		19C0224C20809D01002146FA /* UIView+LCFrameLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LCFrameLayout.m"; sourceTree = "<group>"; };
+		19C0224D20809D01002146FA /* UIView+LCFrameLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LCFrameLayout.h"; sourceTree = "<group>"; };
+		19C022532080C649002146FA /* GQMiddleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQMiddleBar.h; sourceTree = "<group>"; };
+		19C022542080C649002146FA /* GQMiddleBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQMiddleBar.m; sourceTree = "<group>"; };
+		19C022552080C649002146FA /* GQScrollContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQScrollContentView.h; sourceTree = "<group>"; };
+		19C022562080C649002146FA /* GQScrollContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQScrollContentView.m; sourceTree = "<group>"; };
+		19C022592080C66C002146FA /* MiddleBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MiddleBarViewController.h; sourceTree = "<group>"; };
+		19C0225A2080C66C002146FA /* MiddleBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MiddleBarViewController.m; sourceTree = "<group>"; };
+		19C0225D2080C67F002146FA /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		19C0225E2080C67F002146FA /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		19C0225F2080C67F002146FA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		19C022602080C67F002146FA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		19C022612080C67F002146FA /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		19C022622080C67F002146FA /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		19C022632080C67F002146FA /* CViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		19C022642080C67F002146FA /* CViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19C021CD208097B3002146FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C021E5208097B3002146FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C021F0208097B3002146FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195CDFF02081055900FBB2EA /* GQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				195CDFF12081056B00FBB2EA /* Resource */,
+				19C02208208097E1002146FA /* GQKeyboardManager.h */,
+				19C02209208097E1002146FA /* GQKeyboardManager.m */,
+				19C0220B208097E1002146FA /* GQKeyboardManager+ToolBar.h */,
+				19C0220C208097E1002146FA /* GQKeyboardManager+ToolBar.m */,
+				19C0220D208097E1002146FA /* UIView+GQKBToolBar.h */,
+				19C0220E208097E1002146FA /* UIView+GQKBToolBar.m */,
+				19C02210208097E1002146FA /* UIViewController+EndEdit.h */,
+				19C02211208097E1002146FA /* UIViewController+EndEdit.m */,
+				19C02213208097E1002146FA /* NSArray+GQSort.h */,
+				19C02214208097E1002146FA /* NSArray+GQSort.m */,
+				19C0221B208097E1002146FA /* UIView+Responder.h */,
+				19C0221C208097E1002146FA /* UIView+Responder.m */,
+			);
+			path = GQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		195CDFF12081056B00FBB2EA /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				19C02206208097E1002146FA /* GQKBArrowLeft@3x.png */,
+				19C02207208097E1002146FA /* GQKBArrowRight@3x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		19C021C7208097B3002146FA = {
+			isa = PBXGroup;
+			children = (
+				19C021D2208097B3002146FA /* GQKeyboard */,
+				19C021EB208097B3002146FA /* GQKeyboardTests */,
+				19C021F6208097B3002146FA /* GQKeyboardUITests */,
+				19C021D1208097B3002146FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19C021D1208097B3002146FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19C021D0208097B3002146FA /* GQKeyboard.app */,
+				19C021E8208097B3002146FA /* GQKeyboardTests.xctest */,
+				19C021F3208097B3002146FA /* GQKeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19C021D2208097B3002146FA /* GQKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				195CDFF02081055900FBB2EA /* GQKeyboardManager */,
+				19C021D3208097B3002146FA /* AppDelegate.h */,
+				19C021D4208097B3002146FA /* AppDelegate.m */,
+				19C0222C208098AF002146FA /* RootTableViewController.h */,
+				19C0222B208098AF002146FA /* RootTableViewController.m */,
+				19C0224F2080AC14002146FA /* VIEWCONTROLLER */,
+				19C0222E20809A08002146FA /* UITABLEVIEWCELL */,
+				19C0224220809C16002146FA /* UISCROLLVIEW */,
+				19C022512080C625002146FA /* MULTIPLESCROLLERVIEW */,
+				19C021D9208097B3002146FA /* Main.storyboard */,
+				19C021DC208097B3002146FA /* Assets.xcassets */,
+				19C021DE208097B3002146FA /* LaunchScreen.storyboard */,
+				19C021E1208097B3002146FA /* Info.plist */,
+				19C021E2208097B3002146FA /* main.m */,
+			);
+			path = GQKeyboard;
+			sourceTree = "<group>";
+		};
+		19C021EB208097B3002146FA /* GQKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				19C021EC208097B3002146FA /* GQKeyboardTests.m */,
+				19C021EE208097B3002146FA /* Info.plist */,
+			);
+			path = GQKeyboardTests;
+			sourceTree = "<group>";
+		};
+		19C021F6208097B3002146FA /* GQKeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19C021F7208097B3002146FA /* GQKeyboardUITests.m */,
+				19C021F9208097B3002146FA /* Info.plist */,
+			);
+			path = GQKeyboardUITests;
+			sourceTree = "<group>";
+		};
+		19C0222E20809A08002146FA /* UITABLEVIEWCELL */ = {
+			isa = PBXGroup;
+			children = (
+				19C0223B20809A86002146FA /* cell */,
+				19C0223820809A86002146FA /* model */,
+				19C0222F20809A40002146FA /* IHBaseInformationViewController.h */,
+				19C0223020809A40002146FA /* IHBaseInformationViewController.m */,
+				19C0223220809A40002146FA /* IHBaseInformationViewController.xib */,
+			);
+			path = UITABLEVIEWCELL;
+			sourceTree = "<group>";
+		};
+		19C0223820809A86002146FA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				19C0223920809A86002146FA /* IHBaseInformationModel.h */,
+				19C0223A20809A86002146FA /* IHBaseInformationModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		19C0223B20809A86002146FA /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				19C0223C20809A86002146FA /* IHBaseInformationCell.h */,
+				19C0223D20809A86002146FA /* IHBaseInformationCell.m */,
+				19C0223E20809A86002146FA /* IHBaseInformationCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		19C0224220809C16002146FA /* UISCROLLVIEW */ = {
+			isa = PBXGroup;
+			children = (
+				19C022502080AC4C002146FA /* 类别等 */,
+				19C0224320809C30002146FA /* XLSupplementaryInfoViewController.h */,
+				19C0224420809C30002146FA /* XLSupplementaryInfoViewController.m */,
+			);
+			path = UISCROLLVIEW;
+			sourceTree = "<group>";
+		};
+		19C0224F2080AC14002146FA /* VIEWCONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				19C021D6208097B3002146FA /* ViewController.h */,
+				19C021D7208097B3002146FA /* ViewController.m */,
+			);
+			path = VIEWCONTROLLER;
+			sourceTree = "<group>";
+		};
+		19C022502080AC4C002146FA /* 类别等 */ = {
+			isa = PBXGroup;
+			children = (
+				19C0224D20809D01002146FA /* UIView+LCFrameLayout.h */,
+				19C0224C20809D01002146FA /* UIView+LCFrameLayout.m */,
+				19C0224A20809C9B002146FA /* XLTextView.h */,
+				19C0224920809C9B002146FA /* XLTextView.m */,
+				19C0224720809C58002146FA /* UIView+GQMakeUI.h */,
+				19C0224620809C57002146FA /* UIView+GQMakeUI.m */,
+			);
+			path = "类别等";
+			sourceTree = "<group>";
+		};
+		19C022512080C625002146FA /* MULTIPLESCROLLERVIEW */ = {
+			isa = PBXGroup;
+			children = (
+				19C0225C2080C67F002146FA /* ViewControllers */,
+				19C022522080C649002146FA /* 中间条 */,
+				19C022592080C66C002146FA /* MiddleBarViewController.h */,
+				19C0225A2080C66C002146FA /* MiddleBarViewController.m */,
+			);
+			path = MULTIPLESCROLLERVIEW;
+			sourceTree = "<group>";
+		};
+		19C022522080C649002146FA /* 中间条 */ = {
+			isa = PBXGroup;
+			children = (
+				19C022532080C649002146FA /* GQMiddleBar.h */,
+				19C022542080C649002146FA /* GQMiddleBar.m */,
+				19C022552080C649002146FA /* GQScrollContentView.h */,
+				19C022562080C649002146FA /* GQScrollContentView.m */,
+			);
+			path = "中间条";
+			sourceTree = "<group>";
+		};
+		19C0225C2080C67F002146FA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				19C0225D2080C67F002146FA /* AViewController.h */,
+				19C0225E2080C67F002146FA /* AViewController.m */,
+				19C0225F2080C67F002146FA /* BaseViewController.h */,
+				19C022602080C67F002146FA /* BaseViewController.m */,
+				19C022612080C67F002146FA /* BViewController.h */,
+				19C022622080C67F002146FA /* BViewController.m */,
+				19C022632080C67F002146FA /* CViewController.h */,
+				19C022642080C67F002146FA /* CViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19C021CF208097B3002146FA /* GQKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C021FC208097B3002146FA /* Build configuration list for PBXNativeTarget "GQKeyboard" */;
+			buildPhases = (
+				19C021CC208097B3002146FA /* Sources */,
+				19C021CD208097B3002146FA /* Frameworks */,
+				19C021CE208097B3002146FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GQKeyboard;
+			productName = GQKeyboard;
+			productReference = 19C021D0208097B3002146FA /* GQKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19C021E7208097B3002146FA /* GQKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C021FF208097B3002146FA /* Build configuration list for PBXNativeTarget "GQKeyboardTests" */;
+			buildPhases = (
+				19C021E4208097B3002146FA /* Sources */,
+				19C021E5208097B3002146FA /* Frameworks */,
+				19C021E6208097B3002146FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19C021EA208097B3002146FA /* PBXTargetDependency */,
+			);
+			name = GQKeyboardTests;
+			productName = GQKeyboardTests;
+			productReference = 19C021E8208097B3002146FA /* GQKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19C021F2208097B3002146FA /* GQKeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C02202208097B3002146FA /* Build configuration list for PBXNativeTarget "GQKeyboardUITests" */;
+			buildPhases = (
+				19C021EF208097B3002146FA /* Sources */,
+				19C021F0208097B3002146FA /* Frameworks */,
+				19C021F1208097B3002146FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19C021F5208097B3002146FA /* PBXTargetDependency */,
+			);
+			name = GQKeyboardUITests;
+			productName = GQKeyboardUITests;
+			productReference = 19C021F3208097B3002146FA /* GQKeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19C021C8208097B3002146FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ZHM.YU;
+				TargetAttributes = {
+					19C021CF208097B3002146FA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					19C021E7208097B3002146FA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19C021CF208097B3002146FA;
+					};
+					19C021F2208097B3002146FA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 19C021CF208097B3002146FA;
+					};
+				};
+			};
+			buildConfigurationList = 19C021CB208097B3002146FA /* Build configuration list for PBXProject "GQKeyboard" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 19C021C7208097B3002146FA;
+			productRefGroup = 19C021D1208097B3002146FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19C021CF208097B3002146FA /* GQKeyboard */,
+				19C021E7208097B3002146FA /* GQKeyboardTests */,
+				19C021F2208097B3002146FA /* GQKeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19C021CE208097B3002146FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C021E0208097B3002146FA /* LaunchScreen.storyboard in Resources */,
+				19C0224120809A86002146FA /* IHBaseInformationCell.xib in Resources */,
+				19C02220208097E1002146FA /* GQKBArrowRight@3x.png in Resources */,
+				19C0221F208097E1002146FA /* GQKBArrowLeft@3x.png in Resources */,
+				19C021DD208097B3002146FA /* Assets.xcassets in Resources */,
+				19C0223620809A40002146FA /* IHBaseInformationViewController.xib in Resources */,
+				19C021DB208097B3002146FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C021E6208097B3002146FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C021F1208097B3002146FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19C021CC208097B3002146FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C021D8208097B3002146FA /* ViewController.m in Sources */,
+				19C0224820809C58002146FA /* UIView+GQMakeUI.m in Sources */,
+				19C02229208097E1002146FA /* UIView+Responder.m in Sources */,
+				19C022682080C67F002146FA /* CViewController.m in Sources */,
+				19C022572080C649002146FA /* GQMiddleBar.m in Sources */,
+				19C0225B2080C66C002146FA /* MiddleBarViewController.m in Sources */,
+				19C0222D208098AF002146FA /* RootTableViewController.m in Sources */,
+				19C022662080C67F002146FA /* BaseViewController.m in Sources */,
+				19C0223F20809A86002146FA /* IHBaseInformationModel.m in Sources */,
+				19C02224208097E1002146FA /* UIViewController+EndEdit.m in Sources */,
+				19C0224520809C30002146FA /* XLSupplementaryInfoViewController.m in Sources */,
+				19C02223208097E1002146FA /* UIView+GQKBToolBar.m in Sources */,
+				19C02222208097E1002146FA /* GQKeyboardManager+ToolBar.m in Sources */,
+				19C0224020809A86002146FA /* IHBaseInformationCell.m in Sources */,
+				19C022652080C67F002146FA /* AViewController.m in Sources */,
+				19C021E3208097B3002146FA /* main.m in Sources */,
+				19C0224B20809C9B002146FA /* XLTextView.m in Sources */,
+				19C0224E20809D01002146FA /* UIView+LCFrameLayout.m in Sources */,
+				19C02221208097E1002146FA /* GQKeyboardManager.m in Sources */,
+				19C022672080C67F002146FA /* BViewController.m in Sources */,
+				19C02225208097E1002146FA /* NSArray+GQSort.m in Sources */,
+				19C022582080C649002146FA /* GQScrollContentView.m in Sources */,
+				19C021D5208097B3002146FA /* AppDelegate.m in Sources */,
+				19C0223420809A40002146FA /* IHBaseInformationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C021E4208097B3002146FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C021ED208097B3002146FA /* GQKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19C021EF208097B3002146FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C021F8208097B3002146FA /* GQKeyboardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19C021EA208097B3002146FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C021CF208097B3002146FA /* GQKeyboard */;
+			targetProxy = 19C021E9208097B3002146FA /* PBXContainerItemProxy */;
+		};
+		19C021F5208097B3002146FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19C021CF208097B3002146FA /* GQKeyboard */;
+			targetProxy = 19C021F4208097B3002146FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		19C021D9208097B3002146FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C021DA208097B3002146FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		19C021DE208097B3002146FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				19C021DF208097B3002146FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		19C021FA208097B3002146FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		19C021FB208097B3002146FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19C021FD208097B3002146FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY5A2446M4;
+				INFOPLIST_FILE = GQKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuguangquan.GQKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19C021FE208097B3002146FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY5A2446M4;
+				INFOPLIST_FILE = GQKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuguangquan.GQKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19C02200208097B3002146FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY5A2446M4;
+				INFOPLIST_FILE = GQKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuguangquan.GQKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GQKeyboard.app/GQKeyboard";
+			};
+			name = Debug;
+		};
+		19C02201208097B3002146FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY5A2446M4;
+				INFOPLIST_FILE = GQKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuguangquan.GQKeyboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GQKeyboard.app/GQKeyboard";
+			};
+			name = Release;
+		};
+		19C02203208097B3002146FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY5A2446M4;
+				INFOPLIST_FILE = GQKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuguangquan.GQKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GQKeyboard;
+			};
+			name = Debug;
+		};
+		19C02204208097B3002146FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FY5A2446M4;
+				INFOPLIST_FILE = GQKeyboardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yuguangquan.GQKeyboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GQKeyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19C021CB208097B3002146FA /* Build configuration list for PBXProject "GQKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C021FA208097B3002146FA /* Debug */,
+				19C021FB208097B3002146FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C021FC208097B3002146FA /* Build configuration list for PBXNativeTarget "GQKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C021FD208097B3002146FA /* Debug */,
+				19C021FE208097B3002146FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C021FF208097B3002146FA /* Build configuration list for PBXNativeTarget "GQKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C02200208097B3002146FA /* Debug */,
+				19C02201208097B3002146FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19C02202208097B3002146FA /* Build configuration list for PBXNativeTarget "GQKeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19C02203208097B3002146FA /* Debug */,
+				19C02204208097B3002146FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19C021C8208097B3002146FA /* Project object */;
+}

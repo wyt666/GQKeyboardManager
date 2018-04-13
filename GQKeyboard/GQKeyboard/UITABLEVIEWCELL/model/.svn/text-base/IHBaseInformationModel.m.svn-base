@@ -1,0 +1,13 @@
+//
+//  IHBaseInformationModel.m
+//  iHome
+//
+//  Created by zzz on 16/6/26.
+//  Copyright © 2016年 bluemobi. All rights reserved.
+//
+
+#import "IHBaseInformationModel.h"
+
+@implementation IHBaseInformationModel
+
+@end

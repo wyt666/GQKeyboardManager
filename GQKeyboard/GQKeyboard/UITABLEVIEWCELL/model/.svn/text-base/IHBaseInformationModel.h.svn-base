@@ -1,0 +1,15 @@
+//
+//  IHBaseInformationModel.h
+//  iHome
+//
+//  Created by zzz on 16/6/26.
+//  Copyright © 2016年 bluemobi. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface IHBaseInformationModel : NSObject
+@property(nonatomic,strong)NSString * title1;
+@property(nonatomic,strong)NSString * title2;//num
+@property(nonatomic,strong)NSString * image1;//右侧图片
+@end
