@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		195CDFF620810EA400FBB2EA /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 195CDFF320810EA400FBB2EA /* 1.png */; };
+		195CDFF720810EA400FBB2EA /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 195CDFF420810EA400FBB2EA /* 2.png */; };
+		195CDFF820810EA400FBB2EA /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 195CDFF520810EA400FBB2EA /* 3.png */; };
 		19C021D5208097B3002146FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C021D4208097B3002146FA /* AppDelegate.m */; };
 		19C021D8208097B3002146FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19C021D7208097B3002146FA /* ViewController.m */; };
 		19C021DB208097B3002146FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19C021D9208097B3002146FA /* Main.storyboard */; };
@@ -60,6 +63,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		195CDFF320810EA400FBB2EA /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		195CDFF420810EA400FBB2EA /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		195CDFF520810EA400FBB2EA /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		19C021D0208097B3002146FA /* GQKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GQKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19C021D3208097B3002146FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		19C021D4208097B3002146FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -178,6 +184,16 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
+		195CDFF220810E6A00FBB2EA /* github_images */ = {
+			isa = PBXGroup;
+			children = (
+				195CDFF320810EA400FBB2EA /* 1.png */,
+				195CDFF420810EA400FBB2EA /* 2.png */,
+				195CDFF520810EA400FBB2EA /* 3.png */,
+			);
+			path = github_images;
+			sourceTree = "<group>";
+		};
 		19C021C7208097B3002146FA = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +217,7 @@
 		19C021D2208097B3002146FA /* GQKeyboard */ = {
 			isa = PBXGroup;
 			children = (
+				195CDFF220810E6A00FBB2EA /* github_images */,
 				195CDFF02081055900FBB2EA /* GQKeyboardManager */,
 				19C021D3208097B3002146FA /* AppDelegate.h */,
 				19C021D4208097B3002146FA /* AppDelegate.m */,
@@ -444,10 +461,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				19C021E0208097B3002146FA /* LaunchScreen.storyboard in Resources */,
+				195CDFF620810EA400FBB2EA /* 1.png in Resources */,
 				19C0224120809A86002146FA /* IHBaseInformationCell.xib in Resources */,
 				19C02220208097E1002146FA /* GQKBArrowRight@3x.png in Resources */,
 				19C0221F208097E1002146FA /* GQKBArrowLeft@3x.png in Resources */,
+				195CDFF820810EA400FBB2EA /* 3.png in Resources */,
 				19C021DD208097B3002146FA /* Assets.xcassets in Resources */,
+				195CDFF720810EA400FBB2EA /* 2.png in Resources */,
 				19C0223620809A40002146FA /* IHBaseInformationViewController.xib in Resources */,
 				19C021DB208097B3002146FA /* Main.storyboard in Resources */,
 			);
